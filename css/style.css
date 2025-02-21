@@ -11,6 +11,11 @@ header{
     font-size: 25px;
 }
 
+footer{
+    padding: 25px 0;
+    font-size: 25px;
+}
+
 .container{
     display: flex;
     margin: 0 auto;
@@ -48,6 +53,10 @@ header{
     background-color: #1E90FF;
 }
 
+.bg-lightblue{
+    background-color: #20B3AA;
+}
+
 .bg-pink{
     background-color: #EF82ED;
 }
@@ -56,12 +65,20 @@ header{
     background-color: #FFC0CA;
 }
 
+.bg-pink2{
+    background-color: #F08180;
+}
+
 .bg-grey{
     background-color: #D3D3D3;
 }
 
 .bg-green{
     background-color: #218B21;
+}
+
+.bg-dark{
+    background-color: #23272A;
 }
 
 
@@ -83,6 +100,10 @@ header{
 
 .dashed{
     border: 3px dashed black;
+}
+
+.dashed-white{
+    border: 3px dashed white;
 }
 
 .text-center{
@@ -116,4 +137,8 @@ header{
 
 .m-250{
     margin: 250px auto;
+}
+
+.mt-3{
+    margin-top: 3px
 }

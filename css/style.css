@@ -14,7 +14,7 @@ header{
 .container{
     display: flex;
     margin: 0 auto;
-    max-width: 1180px;
+    max-width: 1350px;
     border: 1px solid black;
     padding: 15px;
 }
@@ -44,9 +44,26 @@ header{
     background-color: #00018B;
 }
 
+.bg-blue1{
+    background-color: #1E90FF;
+}
+
 .bg-pink{
     background-color: #EF82ED;
 }
+
+.bg-pink1{
+    background-color: #FFC0CA;
+}
+
+.bg-grey{
+    background-color: #D3D3D3;
+}
+
+.bg-green{
+    background-color: #218B21;
+}
+
 
 .full-col{
     width: 100%;
@@ -54,6 +71,10 @@ header{
 
 .col-20{
     width: 20%;
+}
+
+.col-40{
+    width: 40%;
 }
 
 .col-60{
@@ -77,6 +98,22 @@ header{
     min-height: 350px;
 }
 
+.h-500{
+    min-height: 500px;
+}
+
+.h-800{
+    min-height: 800px;
+}
+
 .p-50{
     padding: 50px;
+}
+
+.m-50{
+    margin: 50px auto;
+}
+
+.m-250{
+    margin: 250px auto;
 }

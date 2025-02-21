@@ -12,7 +12,7 @@ header{
 }
 
 footer{
-    padding: 25px 0;
+    padding: 25px 0 0 0;
     font-size: 25px;
 }
 
@@ -148,6 +148,10 @@ footer{
 
 .py-20{
     padding: 20px 0;
+}
+
+.p-8{
+    padding: 8px;
 }
 
 .m-50{
